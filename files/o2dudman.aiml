@@ -2,7 +2,6 @@
 <aiml version="2.0">
     
 
-
 <category>
     <pattern>BRISTOL</pattern>
     <template>In the South-West of England</template>
@@ -144,13 +143,12 @@
 <category>
     <pattern>How many people live in Keynsham</pattern>
     <template>I do not know what the population of Keynsham is</template>
-    <think><set name="udc">KEYNSHAM</set></think>
+    <think><set name="o2dudman">KEYNSHAM</set></think>
 </category>
 
 <topic name="KEYNSHAM">
     <category>
-        <pattern>Why not?</pattern>
-        
+        <pattern>*</pattern>
         <template>because it is too hard to count the residents of Keynsham</template>
     </category>
 </topic>
