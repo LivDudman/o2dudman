@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+    
 <category>
     <pattern>BRISTOL</pattern>
     <template>In the South-West of England</template>
@@ -25,7 +26,7 @@
       <srai>BRISTOL</srai>
    </template>
 </category>
-
+ 
   <category>
       <pattern>LONDON</pattern>
       <template>Somewhere east of Bristol</template>
@@ -129,4 +130,13 @@
    </template>
 </category>
 
+<category>
+    <pattern>How many people live in *</pattern>
+    <template>I do not know what the population of <star index = "1"/> is</template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <template>I do not have an answer for that"</template>
+</category>
 </aiml>
