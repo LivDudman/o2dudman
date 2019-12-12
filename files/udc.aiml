@@ -147,6 +147,8 @@
     <think><set name="udc">KEYNSHAM</set></think>
 </category>
 
+
+
 <topic name="KEYNSHAM">
     <category>
         <pattern>Why not?</pattern>
@@ -154,4 +156,17 @@
         <template>because it is too hard to count the residents of Keynsham</template>
     </category>
 </topic>
+<category>
+    <pattern>How many people live in space</pattern>
+    <template>I do not know what the population of space is</template>
+    <think><set name="udc">SPACE</set></think>
+</category>
+<topic name="SPACE">
+    <category>
+        <pattern>Why not?</pattern>
+        <template>because it is too hard to count the residents of space</template>
+    </category>
+</topic>
+
+
 </aiml>
